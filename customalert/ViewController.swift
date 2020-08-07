@@ -103,6 +103,10 @@ class ViewController: UIViewController {
             field.placeholder = "Enter username"
         }
 
+        alert.addTextField { field in
+            field.placeholder = "Enter password"
+        }
+
         present(alert, animated: false, completion: nil)
     }
 
